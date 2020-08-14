@@ -10,7 +10,7 @@ spec:
         deployment: wso2-mgw
     spec:
       containers:
-      - name: wso2ei-server
+      - name: wso2micro-gateway
         image: 172.30.139.20:5000/wso2/wso2-mgw:0.1
         imagePullPolicy: IfNotPresent
         securityContext:
